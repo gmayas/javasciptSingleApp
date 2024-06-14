@@ -6,7 +6,7 @@ let content = document.getElementById("content");
 const router = async (router) => {
    content.innerHTML = "";
    switch (router) {
-      case "#/":
+      case "/","#/":
          return content.appendChild(pages.home());
       case "#/products":
          return content.appendChild(pages.products());
