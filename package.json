@@ -2,7 +2,7 @@
   "name": "javasciptsingleapp",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://gmayas/github.io/javasciptSingleApp",
+  "homepage": "https://gmayas.github.io/javasciptSingleApp/#/",
   "main": "src/index.js",
   "scripts": {
     "build": "npx webpack",
