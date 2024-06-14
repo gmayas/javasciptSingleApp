@@ -2,9 +2,11 @@
   "name": "javasciptsingleapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://gmayas/github.io/javasciptSingleApp",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx webpack",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "bootstrap": "^5.3.3",
     "bootswatch": "^5.3.3",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
