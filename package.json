@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npx webpack",
     "deploy": "gh-pages -d dist",
-    "dev": "webpack serve" 
+    "start": "webpack serve" 
   },
   "keywords": [],
   "author": "",
