@@ -28,7 +28,6 @@ const getUsers = async () => {
 let getUsersToStorage = async () => {
   try {
       let dataRes = await getUsers();
-      console.log("users main", dataRes)
       localStorage.setItem("users", JSON.stringify(dataRes))
   }
   catch (e) {
